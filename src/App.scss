@@ -1,0 +1,75 @@
+@media only screen and (max-width: 600px) {
+  .button {
+    flex-direction: column;
+  }
+}
+
+.App {
+  text-align: center;
+  #quote-box {
+    border-radius: 50px;
+    position: relative;
+
+    width: 50rem;
+    padding: 40px 50px;
+    display: table;
+    background: rgba(237, 239, 245, 0.2);
+    color: #fff;
+    font-size: 40px;
+
+    #author {
+      text-align: end;
+    }
+    #tweet-quote {
+      float: left;
+      padding-left: 7%;
+      color: rgb(0, 123, 255);
+      cursor: pointer;
+    }
+    #new-quote {
+      float: right;
+      color: #000;
+      border-radius: 20px;
+      padding: 10px;
+      border: none;
+      font-style: oblique;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+
+  #footer {
+    border-radius: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 20%;
+    color: white;
+    font-size: smaller;
+    text-align: right;
+    background: rgba(237, 239, 245, 0.4);
+    cursor: pointer;
+  }
+  .App-header {
+    background-image: url("https://guidetoiceland.imgix.net/320792/x/0/skiing-and-snowboarding-in-iceland-7?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&h=630&ixlib=php-2.1.1&w=1200&s=ce3e5275db51d16d9a910d1a4b1ce4ee");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  @media (min-width: 1025px) {
+    .App-header {
+      background-image: url("https://guidetoiceland.imgix.net/320792/x/0/skiing-and-snowboarding-in-iceland-7?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&h=630&ixlib=php-2.1.1&w=1200&s=ce3e5275db51d16d9a910d1a4b1ce4ee");
+    }
+  }
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .App-header {
+      background-image: url("https://guidetoiceland.imgix.net/320792/x/0/skiing-and-snowboarding-in-iceland-7?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&h=630&ixlib=php-2.1.1&w=1200&s=ce3e5275db51d16d9a910d1a4b1ce4ee");
+    }
+  }
+}
